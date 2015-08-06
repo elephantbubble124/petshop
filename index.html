@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Pet Shop Supplies
+		
+		</title>
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		
+		
+		
+			<div id = "banner">
+			
+
+
+
+				<div id = "leftnavimg" >
+					<img src="images/cat.jpg" alt = "cat" width = "116" height = "109" />
+					
+				</div>
+
+				<div id = "midnav" >
+
+					<h1>Pet Shop Supplies</h1>
+
+				</div>
+
+				<div id = "rightnavimg">
+					<img src="images/dog.jpg" alt = "dog" width = "116" height = "109" />
+					
+				</div>
+
+
+
+			</div>
+
+	</head>
+	
+	<body>
+	
+	<div class="navbar-static-top navbar-inverse" id="home">
+		<div class="container">
+			<div class="navbar-brand">
+				<a href="index.html"> Pet Shop Supplies </a>				
+			</div>				
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>	
+			<div class="collapse navbar-collapse navHeaderCollapse">	
+				<ul class="nav navbar-nav navbar-right">	
+					<li><a href = "about.html">About</a></li>
+					<li><a href = "petfood.html">Pet Food</a></li>
+					<li><a href = "pets.html">Pets</a></li>			
+				</ul>	
+			</div>	
+		</div>	
+	</div>
+	
+	
+	
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Pet Shop Supplies</h1>
+			<p>Please select a Pet and make a home for your new friend!</p>
+			<p>Pet Shop Supplies also supplies Pet products and Accessories</p>
+			<p><a href="link to database" target="blank" class="btn btn-primary btn-lg">Click to enter Purchasing!</a></p>
+		</div>
+	
+	
+	
+	
+	</div>
+	
+	<div class="container">
+		<div class="row padding">
+			<div class="col-md-2">
+				<img src="images/pets/rabbit.jpg" class="img-circle img-responsive" alt="Pet Rabbit" width = "116" height = "109"/>
+			
+			</div>
+			
+			<div class="col-md-2">
+				<h2 class="text-center">Pet Rabbit</h2>
+				<p class="text-justify">This Pet Rabbit is only 20 euro this week!</p>
+			</div>
+			
+		</div>
+		<hr />
+		
+		<div class="row padding">
+			<div class="col-md-2">
+				<h2 class="text-center">Pet Food</h2>
+				<p class="text-justify">Pet Food only 10 euro this week!</p>
+			</div>
+			
+			<div class="col-md-2">
+				<img src="images/pet food/reptile.jpg" class="img-circle img-responsive" alt="Pet Food" width = "116" height = "109"/>
+			</div>
+			
+		</div>
+		<hr />
+		
+		<div class="row padding">
+			<div class="col-md-2">
+				<img src="images/pet accessories/bed.jpg" class="img-circle img-responsive" alt="Pet Accessories" width = "116" height = "109"/>
+			</div>
+			
+			<div class="col-md-2">
+				<h2 class="text-center">Pet Accessories</h2>
+				<p class="text-justify">Pet Accessories at only 30 euro this week!</p>
+			</div>
+			
+		</div>
+		
+		
+	
+	</div>
+	
+	
+	
+	
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
+
+
+		<div id = "wrapper">
+
+			<div class="alt1 padding" id="About"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<h2 class="text-center">About</h2>
+					<p class="text-justify">Find out where we are!</p>
+					<a href="about.html" class="btn btn-default">Enter</a>
+			
+					</div>
+			
+					<div class="col-md-4">
+					<h2 class="text-center">Pet Food</h2>
+					<p class="text-justify">Click here to find out about our variety extensive range!</p>
+					<a href="petfood.html" class="btn btn-default">Enter</a>
+			
+					</div>
+			
+					<div class="col-md-4">
+					<h2 class="text-center">Pets</h2>
+					<p class="text-justify">Click here to see what Pets we sell!</p>
+					<a href="pets.html" class="btn btn-default">Enter</a>
+			
+					</div>
+		
+				</div>
+
+
+			
+
+			
+			
+			</div>
+
+		
+
+
+			
+			
+			
+
+			
+
+			
+
+		
+
+
+
+	</body>
+	
+	
+	
+			<div class="alt2">
+				<div class="container">
+			<footer>&copy;Aisling Saul <br /><a href="#home">Back to top</a></footer>
+				</div>
+	
+			</div>
+</html>
+

@@ -1,0 +1,103 @@
+body{
+background:violet;
+}
+
+#wrapper{
+width: 100%;
+margin: 0 auto 
+}
+
+#banner{
+background:white;
+height: 100px; 
+width: 100%;
+
+}
+
+#leftnavimg, #rightnavimg{
+width: 10%;
+height: 100px;
+background: blue;
+}
+
+#rightnavimg img{
+float:  right;
+}
+
+p
+{
+color:green;
+text-decoration:underline;
+text-align: center;
+}
+
+#midnav{
+width:80%;
+height:100px;
+background:turquoise;
+float:left;
+text-align: center;
+}
+#leftnavimg{
+float:left;
+}
+
+#rightnavimg{
+float:right;
+}
+
+#leftLinks{
+width: 25%;
+height: 600px;
+background: purple;
+float: left;
+
+}
+
+#content{
+width: 50%;
+height: 600px;
+background: yellow;
+float:left;
+
+}
+
+#rightLinks{
+width: 25%;
+height: 600px;
+background: purple;
+float: left;
+
+}
+
+#footer{
+width: 100%;
+height: 400px;
+background: green;
+float: left;
+
+
+}
+
+#foot1, #foot2, #foot3{
+width: 33%;
+height: 100%;
+
+}
+
+#foot1{
+background: red;
+float: left;
+}
+
+#foot2 {
+background: black;
+float: left;
+}
+
+#foot3{
+background: orange;
+float: left;
+}
+
+
